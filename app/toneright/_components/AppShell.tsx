@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "./AuthProvider";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { Menu, X, LogOut, BarChart3, Settings, DollarSign } from "lucide-react";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
