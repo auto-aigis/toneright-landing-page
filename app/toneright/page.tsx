@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Separator } from "@/components/ui/separator";
+// import { Separator } from "@/components/ui/separator";
 import { Copy, CheckCircle2, AlertTriangle } from "lucide-react";
 import { analyzeApi, billingApi } from "@/_lib/api";
 import { useAuth } from "./_components/AuthProvider";
